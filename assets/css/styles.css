@@ -1,3 +1,4 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
 /* CSS Variables */
@@ -34,4 +35,16 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     
+}
+.nav a {
+    color: var(--text-color-alt);
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: bold;
+    flex-direction:row;
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
 }
