@@ -80,3 +80,12 @@ body {
         text-align: center;   
     }
 }
+
+/* About section */
+
+.about-section {
+    background-color: var(--text-color-alt);
+    color: var(--text-color);
+    padding: 2rem 1rem;
+    text-align: center;
+}
