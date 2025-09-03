@@ -94,3 +94,11 @@ body {
     font-size: 2rem;
     margin-bottom: 2.5rem;
 }
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin: 0 auto;
+}
+
