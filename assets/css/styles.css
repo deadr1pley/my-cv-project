@@ -169,3 +169,10 @@ body {
     color: var(--text-color);
     text-align: center;
 }
+
+.border {
+    border-bottom: var(--backdark) solid 1px;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 1rem;    
+}
