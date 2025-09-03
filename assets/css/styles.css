@@ -102,3 +102,21 @@ body {
     margin: 0 auto;
 }
 
+.about-box {
+    
+    color: var(--text-color);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-box i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
