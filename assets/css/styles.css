@@ -232,3 +232,13 @@ footer {
     .intro-text p {
         font-size: 1rem;
     }
+
+    /* About section */
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .about-box {
+        padding: 1.5rem 1rem;
+    }
