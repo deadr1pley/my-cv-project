@@ -186,3 +186,8 @@ footer {
     padding: 1rem;
     margin: 0 auto;    
 }
+
+.fa-brands {
+    color: var(--text-color-alt);
+    padding-top: 2rem;
+}
