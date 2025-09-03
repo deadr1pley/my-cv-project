@@ -20,3 +20,18 @@ body {
     padding 0;
     margin: 0;
 }
+/* Navbar main style */
+.header {
+    background-color: var(--backdark);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--text-color-alt);
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
