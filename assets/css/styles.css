@@ -242,3 +242,14 @@ footer {
     .about-box {
         padding: 1.5rem 1rem;
     }
+
+    /* Contact form */
+    .contact-form {
+        padding: 1rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.95rem;
+    }
+    
