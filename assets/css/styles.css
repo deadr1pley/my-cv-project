@@ -205,3 +205,16 @@ footer {
         align-items: flex-start;
         padding: 1rem;
     }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0.5rem;
+        gap: 0.8rem;
+    }
+
+    .nav a {
+        font-size: 1rem;
+        margin-left: 0;
+    }
