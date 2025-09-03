@@ -176,3 +176,13 @@ body {
     margin: 0 auto;
     padding-bottom: 1rem;    
 }
+
+/* Footer main style */
+
+footer {
+    background-color: var(--backdark);
+    color: var(--text-color-alt);
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;    
+}
