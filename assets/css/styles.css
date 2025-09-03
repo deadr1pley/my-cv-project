@@ -283,4 +283,9 @@ footer {
     .intro-text p {
         font-size: 1.05rem;
     }
+
+    /* About section */
+    .about-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
