@@ -191,3 +191,17 @@ footer {
     color: var(--text-color-alt);
     padding-top: 2rem;
 }
+
+/* =========================
+   RESPONSIV DESIGN
+========================= */
+
+/* ----- 1. Mobile (≤480px) ----- */
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
