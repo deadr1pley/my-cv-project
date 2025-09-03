@@ -89,3 +89,8 @@ body {
     padding: 2rem 1rem;
     text-align: center;
 }
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
