@@ -288,4 +288,32 @@ footer {
     .about-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
+
+    /* Contact form */
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .contact h1 {
+        font-size: 1.8rem;
+    }   
+}
+
+/* ----- 3. Smaller laptops (≤1024px) ----- */
+@media (max-width: 1024px) {
+    /* Limited maximum width */
+    .intro-grid,
+    .about-grid,
+    .contact-form {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-section h2 {
+        font-size: 1.8rem;
+    }
 }
