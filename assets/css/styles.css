@@ -269,5 +269,18 @@ footer {
         gap: 1rem;
         margin-top: 0.5rem;
     }
-    
+
+    /* Intro section */
+    .intro-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .intro-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro-text p {
+        font-size: 1.05rem;
+    }
 }
