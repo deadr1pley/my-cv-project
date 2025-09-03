@@ -7,3 +7,16 @@
     --text-color-alt: #fff;
     --text-color: black;
 }
+
+/* 
+=========================
+   GLOBAL STYLES
+/* body main */
+body {
+    font-family: "Zain", sans-serif;
+    font-size: 20px;
+    background-color: var(--backlight);
+    color: var(--text-color)
+    padding 0;
+    margin: 0;
+}
