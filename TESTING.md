@@ -30,7 +30,7 @@ The CSS was tested with the official [W3C Jigsaw CSS Validator](https://jigsaw.w
 
 **Result:**  
 - One error initially: `font-size-adjust: 130%` (not a valid value).  
-  **Fix:** removed the invalid property.  
+  **Fix:** replaced with `font-size: 130%`.   
 - One warning: imported CSS (Google Fonts) is not validated — does not affect the site.
 
 ![Screenshot of W3C CSS validation](assets/testing/css-validating-w3c.jpg)
